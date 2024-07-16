@@ -1,0 +1,358 @@
+body
+{
+    background-color: whitesmoke;
+}
+.navbar
+{
+    height: 100px;
+    width: 100%;
+    margin-top: 0%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-items
+{
+    height: 60px;
+    width: 100%;
+    border: 1px solid red;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name h2
+{
+    width: 400px;
+    
+   color:rgb(22, 85, 9);
+   font-size: 2.5rem;
+   font-style: italic;
+}
+.links 
+{
+    width: 600px;
+    border: 1px solid black;
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-items a {
+    color: rgb(0, 0, 205);
+    font-size: 1.5rem;
+    font-style: normal;
+
+}
+.button
+{
+    width: 60px;
+    height: 30px;
+    border: 1.5px solid red;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* down bar */
+
+.downbar
+{
+    height: 130px;
+    width: 1400px;
+    border: 2px solid white;
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+
+}
+.main
+{
+    height: 110px;
+    width: 130px;
+    border: 2px solid red;
+    border: none;
+}
+.downitem
+{
+    height: 70px;
+    width: 130px;
+    border: 2px solid yellow;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+.itemchild
+{
+    height: 64px;
+    width: 64px;
+    border: 2px solid black;
+    border: none;
+    
+}
+.downitem1
+{
+    height:40px ;
+    width: 130px;
+    border: 2px solid blue;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* patr 3 */
+.barimg
+{
+    width: 1400px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 2px solid black;
+    border: none;
+    display: flex;
+    align-items: center;
+
+}
+.imgitem
+{
+    width: 100%;
+    height: 260px;
+    border: 2px solid black;
+    border: none;
+    background-image: url('c8a8aef634b0b2fe.webp');
+    background-size: cover;
+}
+/* part4 */
+.part4
+{
+    width: 1400px;
+    height: 400px;
+    border: 2px solid black;
+    border: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.part4item1
+{
+    width: 800px;
+    height: 400px;
+    border: 2px solid black;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('w_3000.webp');
+    background-size: cover;
+    
+}
+.part4item1 p,h1
+{
+    color: white;
+    
+}
+.part4-2
+{
+    margin-left: 195px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.part4item2
+{
+    width: 408px;
+    height:180px;
+    border: 2px solid black;
+    border: none;
+    margin-bottom: 40px;
+    background-image: url("gettyimages-1012842578.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part4item3
+{
+    width: 408px;
+    height:180px;
+    border: 2px solid black;
+    border: none;
+    background-image: url("street_style_-_february_2023_-_new_york_fashion_week-2-1024x683.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part4item3 h2,p
+{
+    color: white;
+}
+.part4item2 h2, p{
+    color: white;
+}
+
+/* part-5 */
+
+.part5
+{
+    width: 1400px;
+    height: 300px;
+    border: 2px solid black;
+    border: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.part5-1
+{
+    width: 550px;
+    height: 250px;
+    border: 2px solid black;
+    border: none;
+    background-image: url('sdYxjmBoYetAmNpXe24pWF-1200-80.jpg');
+    background-size: cover;
+}
+.part5-2
+{
+    width: 550px;
+    height: 250px;
+    border: 2px solid black;
+    border: none;
+}
+.part5-2 p,h1
+{
+    color: black;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+/* part 6 */
+.part6
+{
+    width: 1400px;
+    height: 300px;
+    border: 2px solid black;
+    border: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.part6-1
+{
+    width: 550px;
+    height: 250px;
+    border: 2px solid black;
+    border: none;
+}
+.part6-2
+{
+    width: 550px;
+    height: 250px;
+    border: 2px solid black;
+    border: none;
+    width: 550px;
+    height: 250px;
+    border: 2px solid black;
+    border: none;
+    background-image: url('9aa76700-988f-4f54-b5bf-9d207eb58539-Screen_Shot_2019-02-20_at_2.15.12_PM.webp');
+    background-size: cover;
+}
+.part6-1 p,h1
+{
+    color: black;
+}
+
+/* part 7 */
+.part7
+{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer
+{
+    width: 100%;
+    height: 220px;
+    border: 2px solid black;
+    display: flex;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.line
+{
+    margin-top: 25px;
+    width: 0px;
+    height: 200px;
+    border: 0.5px solid white;
+    
+}
+.social
+{
+    margin-left: 37px;
+    
+}
+.footer li
+{
+    font-size: 0.88rem;
+}
+.footer p
+{
+    font-size: 0.88rem;
+}
+.logos
+{
+   
+    width: 100px;
+    height: 30px;
+    border: 1px solid yellow;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.line2
+{
+    margin-top: 50px;
+    width: 100%;
+    height: 0px;
+    border: 0.5px solid white;
+}
+.end-items
+{
+    margin-top: 27px;
+    width: 100%;
+    height: 30px;
+    border: 2px solid yellow;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
